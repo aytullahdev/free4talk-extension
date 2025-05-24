@@ -1,9 +1,11 @@
 {
-  "name": "free4talk",
+  "name": "Free4Talk Extension",
   "description": "Free4Talk Chrome Extension",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html"
-  }
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://free4talk.com/*"]
 }
